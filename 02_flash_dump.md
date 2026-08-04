@@ -145,9 +145,9 @@ sta.apsw,data,base64,BQA=
 ...
 ap.ssid,data,base64,DgAAAFRyYWN0aXZlX1hYWFhYAAAAAAAAAAAAA
 ap.passwd,data,base64,VGhlU3VuSXNTaGluaW5nVGhlV2VhdGhlcklzU3dlZXQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
--> **TheSunIsShiningTheWeatherIsSweet**
 ...
 ```
+-> **TheSunIsShiningTheWeatherIsSweet**
 
 Used it to connect, but did not get connection with it :-(
 
@@ -163,7 +163,7 @@ Segment 5 : len 0x05840 load 0x40388f64 file_offs 0x000c5034 IRAM
 Checksum: 41 (valid)
 ```
 
-`` `$ strings parsed/part.2.app0.seg1 | grep BaseStation >` [update.html](update.html)``
+`$ strings parsed/part.2.app0.seg1 | grep BaseStation >` [update.html](https://bosb.github.io/Base_Station_Light/update.html)
 
 Thats my suspect there is OTA hidden, if a connect gets successfull....
 
