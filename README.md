@@ -7,8 +7,8 @@ Provides a dummy wifi access point for another device, that will go into powersa
 
 My goals:
 1. figure out the WPA2 password from the running firmware
-2. 3 LED GPIOs + switch GPIO ✅
-3. the 2 ? on the 8 pin header
+2. 3 LED GPIOs + switch GPIO ✅ [Arduino Demo](Button.ino)
+3. the 2 ? on the 8 pin header (1/2)
 4. get ota working, so no device opening needed
 
 Steps taken so far:
