@@ -163,6 +163,16 @@ Segment 5 : len 0x05840 load 0x40388f64 file_offs 0x000c5034 IRAM
 Checksum: 41 (valid)
 ```
 
+some more strings:
+`$ parsed/part.2.app0.elf | more`
+```
+esp-idf: v4.4.5 ac5d805d0e
+arduino-lib-builder
+16:38:52
+Jun 12 2023
+v4.4.5
+```
+
 `$ strings parsed/part.2.app0.seg1 | grep BaseStation >` [update.html](https://bosb.github.io/Base_Station_Light/update.html)
 
 Thats my suspect there is OTA hidden, if a connect gets successfull....
