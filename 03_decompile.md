@@ -1,4 +1,4 @@
-# Diasemble, .... red hering .... frustration ...
+# Disassemble, .... red hering .... frustration ...
 
 Since the passphrase did not work for me to identfy to WIFI from device, I thought the passphrase found is somehow modified in the code before starting the acess point...
 
@@ -20,8 +20,8 @@ Follow instructions from https://github.com/saibotk/ghidra-esp32-flash-loader#in
 
 Ghidra will complain about some tools, which are untrusted....
 (I use a Mac)
-`$ xattr -w com.apple.lastuseddate\#PS E\?pj  ~/Downloads/ghidra_12.1.2_PUBLIC/GPL/*/os/mac_arm_64/*`
-`$ xattr -w com.apple.lastuseddate\#PS E\?pj  ~/Downloads/ghidra_12.1.2_PUBLIC/Ghidra/Features/*/os/mac_arm_64/*`
+```$ xattr -w com.apple.lastuseddate\#PS E\?pj  ~/Downloads/ghidra_12.1.2_PUBLIC/GPL/*/os/mac_arm_64/*
+$ xattr -w com.apple.lastuseddate\#PS E\?pj  ~/Downloads/ghidra_12.1.2_PUBLIC/Ghidra/Features/*/os/mac_arm_64/*```
 
 Create project in ghidra, import firmware.bin
 
@@ -34,7 +34,7 @@ i also build an example, attached, to see how the config/starting of softAP look
 
 I always found ssid/passphrase strings, but not a real reference in the code that/where they will be used...
 
-Somehow lost, for 2 days, tried to find some tutorials, similar problems, develop a strucktured plan, but not very motivated....🤕
+Somehow lost, for 2 days, tried to find some tutorials, similar problems, develop a structured plan, but not very motivated....🤕
 
 ## Opencode 'KI'
 Then I just gave up and handed over to [opencode](https://opencode.ai/), throwed the firmware at it, explained I want to get the wifi passphrase and the call that setup/config the AP.
