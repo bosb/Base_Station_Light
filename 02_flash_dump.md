@@ -150,6 +150,10 @@ ap.passwd,data,base64,VGhlU3VuSXNTaGluaW5nVGhlV2VhdGhlcklzU3dlZXQAAAAAAAAAAAAAAA
 -> **TheSunIsShiningTheWeatherIsSweet**
 
 Used it to connect, but did not get connection with it :-(
+because on this the following entry got missing (error #1), which makes connection impossible:
+```
+ap.pmk,data,base64,N/tL1EBPRGrZeGYMNjkfO7DsEWF5NDDZK/q+kvjCNmI=
+```
 
 ## parsed/part.2.app0.elf 
 ```

@@ -40,3 +40,10 @@ Somehow lost, for 2 days, tried to find some tutorials, similar problems, develo
 Then I just gave up and handed over to [opencode](https://opencode.ai/), throwed the firmware at it, explained I want to get the wifi passphrase and the call that setup/config the AP.
 I give always access to cli tools, started in a messy directory with the demo project, the flash dumps, directory of 
 https://github.com/wilco375/ESP-Firmware-Toolbox
+
+Update: Oh, my §"$"$"§§2 🤬, default suggestion on ghidra import elf file brought me to a complete wrong track.
+I was confused by ?? and assembler not matching gaps.
+Import suggests its Xtensa:LE:32:default:default 🤔❓
+While watching opencode I saw its diassembling with RISCV - asked about it - answer ESP32 is Xtensa, but ESP32C3 is RISCV 😲
+-> RISCV:LE:32:default:gcc
+Now gives much better result 😡 - even the ssid strings I searched have now usage reference 💥

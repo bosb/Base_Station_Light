@@ -16,10 +16,10 @@
 #include <ESPmDNS.h>
 #include <Update.h>
 
-const char* host = "basestation";
+const char* host = "pfoten";
 // Set these to your desired credentials.
-const char *ssid = "Tractive_XXXXX";
-const char *password = "TheSunIsShiningTheWeatherIsSweet";
+const char *ssid = "Pfoten_XXXXX";
+const char *password = "MakeYouWannaMoveYourDancingFeetNow";
 
 // gpio: 0, 1, 2, 3-d3, 4-sw1, 5-d2, 6, 7, 8, 9-h4, 10-d1, 11.
 const int buttonPin = 4;     // the number of the pushbutton pin
