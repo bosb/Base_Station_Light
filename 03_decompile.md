@@ -20,8 +20,10 @@ Follow instructions from https://github.com/saibotk/ghidra-esp32-flash-loader#in
 
 Ghidra will complain about some tools, which are untrusted....
 (I use a Mac)
-```$ xattr -w com.apple.lastuseddate\#PS E\?pj  ~/Downloads/ghidra_12.1.2_PUBLIC/GPL/*/os/mac_arm_64/*
-$ xattr -w com.apple.lastuseddate\#PS E\?pj  ~/Downloads/ghidra_12.1.2_PUBLIC/Ghidra/Features/*/os/mac_arm_64/*```
+```
+$ xattr -w com.apple.lastuseddate\#PS E\?pj  ~/Downloads/ghidra_12.1.2_PUBLIC/GPL/*/os/mac_arm_64/*
+$ xattr -w com.apple.lastuseddate\#PS E\?pj  ~/Downloads/ghidra_12.1.2_PUBLIC/Ghidra/Features/*/os/mac_arm_64/*
+```
 
 Create project in ghidra, import firmware.bin
 
@@ -41,7 +43,8 @@ Then I just gave up and handed over to [opencode](https://opencode.ai/), throwed
 I give always access to cli tools, started in a messy directory with the demo project, the flash dumps, directory of 
 https://github.com/wilco375/ESP-Firmware-Toolbox
 
-Update: Oh, my §"$"$"§§2 🤬, default suggestion on ghidra import elf file brought me to a complete wrong track.
+## Update: 
+Oh, my §"$"$"§§2 🤬, default suggestion on ghidra import elf file brought me to a complete wrong track.
 I was confused by ?? and assembler not matching gaps.
 Import suggests its Xtensa:LE:32:default:default 🤔❓
 While watching opencode I saw its diassembling with RISCV - asked about it - answer ESP32 is Xtensa, but ESP32C3 is RISCV 😲

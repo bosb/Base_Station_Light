@@ -17,3 +17,8 @@ Opencode developed a nice tooling for writing valid entries in NVS.
 
 Better on to next section: What do we need to know to develop an application that behaves like this existing firmware, and where should it be improved.
 ...but before I stumbled about error #2
+
+Update:
+Also if the custom firmware if flashed via OTA on to the original firmware, If I would keep the same ssid + challenge, a connection is not possible.
+I would have to change the challenge then, or just start without challenge set.
+Not further investigated, workaround is to set no challenge on long button press, to get in.
