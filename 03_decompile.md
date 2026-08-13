@@ -50,3 +50,11 @@ Import suggests its Xtensa:LE:32:default:default 🤔❓
 While watching opencode I saw its diassembling with RISCV - asked about it - answer ESP32 is Xtensa, but ESP32C3 is RISCV 😲
 -> RISCV:LE:32:default:gcc
 Now gives much better result 😡 - even the ssid strings I searched have now usage reference 💥
+
+## Update:
+Found recent video https://www.youtube.com/watch?v=c5AwWOVHkEQ 
+ Breaking And Remaking ESP32 Devices: A Guide To Reverse Engineering And Patching - Wilco Van Beijnum
+ From OrangeCon 2025
+ https://github.com/wilco375
+ https://gist.github.com/wilco375
+

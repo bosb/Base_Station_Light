@@ -5,6 +5,8 @@
 
 Provides a dummy wifi access point for another device, that will go into powersave mode 🤷.
 
+-> Install alternative firmware [howto](07_install.md)
+
 My goals:
 1. figure out the WPA2 password from the running firmware ✅
 2. 3 LED GPIOs + switch GPIO ✅ [Arduino Demo](Button.ino)
